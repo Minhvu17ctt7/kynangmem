@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <title> <%=title%></title>
+    <%-include("partials/head") %>  
+  <body class="bg-light" id="top">
+    <%-include("partials/header", {mssvs}) %>  
+    <div class="page-content">
+      <div class="container">
+        <div class="resume-container">
+          <div class="shadow-1-strong bg-white my-5" id="intro">
+            <div class="bg-info text-white">
+              <div class="cover bg-image">
+                <img src="images/header-background.jpg" />
+                <div
+                  class="mask"
+                  style="
+                    background-color: rgba(0, 0, 0, 0.7);
+                    backdrop-filter: blur(2px);
+                  "
+                >
+                  <div class="text-center p-5">
+                    <div class="header-bio mt-3">
+                      <div data-aos="zoom-in" data-aos-delay="0">
+                        <h2 class="h1">Nhóm 7 Profile</h2>
+                        <p>Front-end Developer and Graphic Designer</p>
+                      </div>
+                      <div
+                        class="header-social mb-3 d-print-none"
+                        data-aos="zoom-in"
+                        data-aos-delay="200"
+                      >
+                        <nav role="navigation">
+                          <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                              <a
+                                class="nav-link"
+                                href="https://twitter.com/templateflip"
+                                title="Twitter"
+                                ><i class="fab fa-twitter"></i
+                                ><span class="menu-title sr-only"
+                                  >Twitter</span
+                                ></a
+                              >
+                            </li>
+                            <li class="nav-item">
+                              <a
+                                class="nav-link"
+                                href="https://www.facebook.com/templateflip"
+                                title="Facebook"
+                                ><i class="fab fa-facebook"></i
+                                ><span class="menu-title sr-only"
+                                  >Facebook</span
+                                ></a
+                              >
+                            </li>
+                            <li class="nav-item">
+                              <a
+                                class="nav-link"
+                                href="https://www.instagram.com/templateflip"
+                                title="Instagram"
+                                ><i class="fab fa-instagram"></i
+                                ><span class="menu-title sr-only"
+                                  >Instagram</span
+                                ></a
+                              >
+                            </li>
+                            <li class="nav-item">
+                              <a
+                                class="nav-link"
+                                href="https://github.com/templateflip"
+                                title="Github"
+                                ><i class="fab fa-github"></i
+                                ><span class="menu-title sr-only"
+                                  >Github</span
+                                ></a
+                              >
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <%- include   partials/footer %>  
+    
+    <script src="scripts/mdb.min.js?ver=1.2.1"></script>
+    <script src="scripts/aos.js?ver=1.2.1"></script>
+    <script src="scripts/main.js?ver=1.2.1"></script>
+  </body>
+</html>
